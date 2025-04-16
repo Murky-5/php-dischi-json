@@ -1,3 +1,10 @@
+<?php 
+$json = file_get_contents("DISCHI.JSON");
+$dischi = json_decode($json, true);
+echo "<pre>";
+var_dump($dischi); 
+echo "</pre>";
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,26 +14,39 @@
     <title>lista dischi</title>
 </head>
 <body>
-    <div class="header"></div>
+    <div class="header">
 
+    </div>
     <main>
-        <div class="box">
-            <div class="cover">
-
-            </div>
-            <div class="titolo">
-                <h1>Title</h1>
-            </div>
-            <div class="autore">
-                <h2>Author</h2>
-            </div>
-            <div class="anno">
-                <h3>Year</h3>
-            </div>
-            <div class="genere">
-                <h4>Genre</h4>
-            </div>
-        </div>
+        <?php 
+        foreach ($dischi as $key => $value) {
+            $titolo = $value["titolo"];
+            $artista = $value["artista"];
+            $pubblicazione = $value["anno_pubblicazione"];
+            $genere = $value["genere"];
+            $cover = $value["url_cover"];
+            
+            
+            
+            echo "<div class=`box`>
+                <div class=`cover`>
+                    <img src=$cover alt='$titolo, $artista'>
+                </div>
+                <div class=`titolo`>
+                    <h1>$titolo</h1>
+                </div>
+                <div class=`artista`>
+                    <h2>$artista</h2>
+                </div>
+                <div class=`anno`>
+                    <h3>$pubblicazione</h3>
+                </div>
+                <div class=`genere`>
+                    <h4>$genere</h4>
+                </div>
+                </div>";
+        };
+            ?>
     </main>
 
 </body>
