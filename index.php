@@ -15,9 +15,12 @@ echo "</pre>";
 </head>
 <body>
     <div class="header">
-
+        <a href="form.php" target="form.php" rel="form">
+            aggiungi un tuo disco 🧡
+        </a>
     </div>
     <main>
+        <h1>Lista dischi</h1>
         <?php 
         foreach ($dischi as $key => $value) {
             $titolo = $value["titolo"];

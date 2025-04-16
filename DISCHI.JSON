@@ -33,5 +33,12 @@
     "url_cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png",
     "anno_pubblicazione": 2011,
     "genere": "Soul/Pop"
+  },
+  {
+    "titolo": "AAA",
+    "artista": "A",
+    "url_cover": "https://upload.wikimedia.org/wikipedia/commons/archive/9/92/20200416112534%21ACDC_Back_in_Black.png",
+    "anno_pubblicazione": "-2646846",
+    "genere": "AA"
   }
 ]
