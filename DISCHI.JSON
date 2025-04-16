@@ -1,0 +1,37 @@
+[
+  {
+    "titolo": "Abbey Road",
+    "artista": "The Beatles",
+    "url_cover": "https://example.com/abbey-road.jpg",
+    "anno_pubblicazione": 1969,
+    "genere": "Rock"
+  },
+  {
+    "titolo": "Thriller",
+    "artista": "Michael Jackson",
+    "url_cover": "https://example.com/thriller.jpg",
+    "anno_pubblicazione": 1982,
+    "genere": "Pop"
+  },
+  {
+    "titolo": "Back in Black",
+    "artista": "AC/DC",
+    "url_cover": "https://example.com/back-in-black.jpg",
+    "anno_pubblicazione": 1980,
+    "genere": "Rock"
+  },
+  {
+    "titolo": "The Dark Side of the Moon",
+    "artista": "Pink Floyd",
+    "url_cover": "https://example.com/dark-side.jpg",
+    "anno_pubblicazione": 1973,
+    "genere": "Progressive Rock"
+  },
+  {
+    "titolo": "21",
+    "artista": "Adele",
+    "url_cover": "https://example.com/21.jpg",
+    "anno_pubblicazione": 2011,
+    "genere": "Soul/Pop"
+  }
+]
